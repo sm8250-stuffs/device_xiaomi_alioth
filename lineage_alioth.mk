@@ -32,6 +32,9 @@ WITH_GMS := true
 # Nuke AudioFX
 TARGET_EXCLUDES_AUDIOFX := true
 
+# Use Scudo instead of Jemalloc
+PRODUCT_USE_SCUDO := true
+
 # Rom Specific Flags
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_BOOT_ANIMATION_RES := 1080
